@@ -12,11 +12,11 @@ public class dividepage extends javax.swing.JFrame {
 
     Random rand = new Random();
     //generates 2 random numbers to be divided by 5 and 25 respectively
-    int num1 = rand.nextInt(80)+16; 
-    int num2 = rand.nextInt(120)+30;
+    double num1 = rand.nextInt(80)+16; 
+    double num2 = rand.nextInt(120)+30;
     //determines the correct quotients
-    int ans1 = num1/5;
-    int ans2 = num2/25;
+    double ans1 = num1/5;
+    double ans2 = num2/25;
     
     /**
      * Creates new form dividepage
@@ -68,7 +68,7 @@ public class dividepage extends javax.swing.JFrame {
 
         dividelesson.setColumns(20);
         dividelesson.setRows(5);
-        dividelesson.setText("Mental division is similar to mental multiplication because it relies on\nrecognition. For the first trick, you must identify when something is\nbeing divided by 5.\n\nTrick 1: When dividing something by 5, you are infact multiplying it\nby 1/5. This can be difficult when divide things like 37/5 or 46/5. But\ninstead of trying to multiply by 1/5, multiply by 2, then divide by 10.\n2/10 = 1/5, but multplying something by 2 is easy, then dividing by 10\nis as simple as moving the decimal place one place to the left.\n\n44/5 = 44*1/5 = 44*2/10 = 88/10 = 8.8\n53/5 = 53*1/5 = 53*2/10 = 106/10 = 10.6\n\nTrick 2: Much like trick 2, we can also easily divide numbers by 25. To do\nthis, you'll want to multiply the initial number by 4/100, which is the same\nas multiplying by 1/25 or dividing by 25.\n\n67/25 = 67*1/25 = 67*4/100 = 268/100 = 2.68 ( move the decimal 2 to \nthe left this time instead of 1)\n79/25 = 79*1/25 = 79*4/100 = 316/100 = 3.16\n\nNow you try a couple excersises and refresh the page for brand new ones.");
+        dividelesson.setText("Mental division is similar to mental multiplication because it relies on\nrecognition. For the first trick, you must identify when something is\nbeing divided by 5.\n\nTrick 1: When dividing something by 5, you are infact multiplying it\nby 1/5. This can be difficult when divide things like 37/5 or 46/5. But\ninstead of trying to multiply by 1/5, multiply by 2, then divide by 10.\n2/10 = 1/5, but multplying something by 2 is easy, then dividing by 10\nis as simple as moving the decimal place one place to the left.\n\n44/5 = 44*1/5 = 44*2/10 = 88/10 = 8.8\n53/5 = 53*1/5 = 53*2/10 = 106/10 = 10.6\n\nTrick 2: Much like trick 2, we can also easily divide numbers by 25. To do\nthis, you'll want to multiply the initial number by 4/100, which is the same\nas multiplying by 1/25 or dividing by 25.\n\n67/25 = 67*1/25 = 67*4/100 = 268/100 = 2.68 ( move the decimal 2 to \nthe left this time instead of 1)\n79/25 = 79*1/25 = 79*4/100 = 316/100 = 3.16\n\nNow you try a couple excercises and refresh the page for brand new ones.");
         jScrollPane1.setViewportView(dividelesson);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -174,8 +174,8 @@ public class dividepage extends javax.swing.JFrame {
        
         int numCorrect = 0;
         //receives the user's answers
-        int uans1= Integer.parseInt(divideuans1.getText());
-        int uans2= Integer.parseInt(divideuans2.getText());
+        double uans1= Double.parseDouble(divideuans1.getText());
+        double uans2= Double.parseDouble(divideuans2.getText());
         
         //determines how many answers the user got correct
         if (uans1 == ans1){

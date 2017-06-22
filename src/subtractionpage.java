@@ -85,7 +85,7 @@ public class subtractionpage extends javax.swing.JFrame {
         lessontext.setColumns(20);
         lessontext.setForeground(new java.awt.Color(38, 15, 18));
         lessontext.setRows(5);
-        lessontext.setText("There are two techniques to do any mental subtraction\nprobelm. \n\n1. Like the addition trick, subract each digit as a multiple\nof ten. Like this: 37-16=(37-10)-6 = 21\n\n2. This trick involves subtracting the closest multiple of 10\nthen adding however much you wen tover by like this:\n37-16=(37-20)+4.\n\nNow you try a couple! See if you can use the same technique\nbut with a three digit subtraction.\n\n");
+        lessontext.setText("There are two techniques to do any mental subtraction\nprobelm. \n\n1. Like the addition trick, subract each digit as a multiple\nof ten. Like this: 37-16=(37-10)-6 = 21\n\n2. This trick involves subtracting the closest multiple of 10\nthen adding however much you went over by like this:\n37-16=(37-20)+4.\n\nNow you try a couple! See if you can use the same technique\nbut with a three digit subtraction.\n\n");
         jScrollPane1.setViewportView(lessontext);
 
         subq1.setForeground(new java.awt.Color(255, 255, 255));

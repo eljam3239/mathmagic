@@ -182,7 +182,7 @@
                   <Color blue="12" green="f" red="26" type="rgb"/>
                 </Property>
                 <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="There are two techniques to do any mental subtraction&#xa;probelm. &#xa;&#xa;1. Like the addition trick, subract each digit as a multiple&#xa;of ten. Like this: 37-16=(37-10)-6 = 21&#xa;&#xa;2. This trick involves subtracting the closest multiple of 10&#xa;then adding however much you wen tover by like this:&#xa;37-16=(37-20)+4.&#xa;&#xa;Now you try a couple! See if you can use the same technique&#xa;but with a three digit subtraction.&#xa;&#xa;"/>
+                <Property name="text" type="java.lang.String" value="There are two techniques to do any mental subtraction&#xa;probelm. &#xa;&#xa;1. Like the addition trick, subract each digit as a multiple&#xa;of ten. Like this: 37-16=(37-10)-6 = 21&#xa;&#xa;2. This trick involves subtracting the closest multiple of 10&#xa;then adding however much you went over by like this:&#xa;37-16=(37-20)+4.&#xa;&#xa;Now you try a couple! See if you can use the same technique&#xa;but with a three digit subtraction.&#xa;&#xa;"/>
               </Properties>
             </Component>
           </SubComponents>

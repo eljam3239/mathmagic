@@ -72,7 +72,7 @@ public class additionpage extends javax.swing.JFrame {
         additionlesson.setColumns(20);
         additionlesson.setForeground(new java.awt.Color(255, 255, 255));
         additionlesson.setRows(5);
-        additionlesson.setText("Addition with single digits is easy. We all know\nthat 3+4 is 7 or that 6+9 is 15. When we add two\nterms with double digits, things can become more\ncomplicated. This first trick is simple: try \nbreaking one of two terms into its multiples of\n10. Here's what I mean:\n\nInstead of trying to compute 43+18 all at once,\ntry splitting 18 to 10+8. You could now tackle \nthe question as (43+10)+8 which now more clearly\nequals 61. *** pro tip: try saying the problem\nin your head, like this: \"forty three plus eight\nteen is equal to forty three plus ten is fifty\nthree plus eight is sixty-one\".\n\nNow you try!\n");
+        additionlesson.setText("Addition with single digits is easy. We all know\nthat 3+4 is 7 or that 6+9 is 15. When we add two\nterms with double digits, things can become more\ncomplicated. This first trick is simple: try \nbreaking one of two terms into its multiples of\n10. Here's what I mean:\n\nInstead of trying to compute 43+18 all at once,\ntry splitting 18 to 10+8. You could now tackle \nthe question as (43+10)+8 which now more clearly\nequals 61. *** pro tip: try saying the problem\nin your head from left to right, like this: \n\"forty three plus eighteen is equal to forty three \nplus ten is fifty three plus eight is sixty-one\".\n\nNow you try!\n");
         jScrollPane1.setViewportView(additionlesson);
 
         addq1.setForeground(new java.awt.Color(255, 255, 255));

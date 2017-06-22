@@ -150,7 +150,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="Addition with single digits is easy. We all know&#xa;that 3+4 is 7 or that 6+9 is 15. When we add two&#xa;terms with double digits, things can become more&#xa;complicated. This first trick is simple: try &#xa;breaking one of two terms into its multiples of&#xa;10. Here&apos;s what I mean:&#xa;&#xa;Instead of trying to compute 43+18 all at once,&#xa;try splitting 18 to 10+8. You could now tackle &#xa;the question as (43+10)+8 which now more clearly&#xa;equals 61. *** pro tip: try saying the problem&#xa;in your head, like this: &quot;forty three plus eight&#xa;teen is equal to forty three plus ten is fifty&#xa;three plus eight is sixty-one&quot;.&#xa;&#xa;Now you try!&#xa;"/>
+                <Property name="text" type="java.lang.String" value="Addition with single digits is easy. We all know&#xa;that 3+4 is 7 or that 6+9 is 15. When we add two&#xa;terms with double digits, things can become more&#xa;complicated. This first trick is simple: try &#xa;breaking one of two terms into its multiples of&#xa;10. Here&apos;s what I mean:&#xa;&#xa;Instead of trying to compute 43+18 all at once,&#xa;try splitting 18 to 10+8. You could now tackle &#xa;the question as (43+10)+8 which now more clearly&#xa;equals 61. *** pro tip: try saying the problem&#xa;in your head from left to right, like this: &#xa;&quot;forty three plus eighteen is equal to forty three &#xa;plus ten is fifty three plus eight is sixty-one&quot;.&#xa;&#xa;Now you try!&#xa;"/>
               </Properties>
             </Component>
           </SubComponents>
