@@ -13,12 +13,12 @@ public class additionpage extends javax.swing.JFrame {
     
     Random rand = new Random();
     //generate the random numbers that change with each use    
-    int num1 = rand.nextInt(70);
-    int num2 = rand.nextInt(31);
-    int num3 = rand.nextInt(70);
-    int num4 = rand.nextInt(31);
-    int num5 = rand.nextInt(70);
-    int num6 = rand.nextInt(31);
+    int num1 = rand.nextInt(50)+15;
+    int num2 = rand.nextInt(50)+15;
+    int num3 = rand.nextInt(50)+15;
+    int num4 = rand.nextInt(50)+15;
+    int num5 = rand.nextInt(50)+15;
+    int num6 = rand.nextInt(50)+15;
     
     //determines what the correct answers are
     int mathans1 = num1+num2;
@@ -90,7 +90,7 @@ public class additionpage extends javax.swing.JFrame {
             }
         });
 
-        addansout.setText("jLabel1");
+        addansout.setForeground(new java.awt.Color(255, 255, 255));
 
         addsenter.setBackground(new java.awt.Color(255, 255, 255));
         addsenter.setForeground(new java.awt.Color(15, 22, 38));
@@ -147,10 +147,11 @@ public class additionpage extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(additionbackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(addq3)
-                    .addComponent(addq2, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(addq1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(additionbackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(addq1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(additionbackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(addq3)
+                        .addComponent(addq2, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(additionbackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(addq1ans, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)

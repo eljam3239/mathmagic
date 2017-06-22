@@ -14,14 +14,14 @@ public class subtractionpage extends javax.swing.JFrame {
 
     Random rand = new Random();
     //generates the random numbers to be subracted from one another
-    int num1 = rand.nextInt(30)+10;
-    int num2 = rand.nextInt(80)+20;
-    int num3 = rand.nextInt(30)+10;
-    int num4 = rand.nextInt(80)+20;
-    int num5 = rand.nextInt(30)+10;
-    int num6 = rand.nextInt(80)+20;
+    int num1 = rand.nextInt(20)+10;
+    int num2 = rand.nextInt(70)+30;
+    int num3 = rand.nextInt(20)+10;
+    int num4 = rand.nextInt(70)+30;
+    int num5 = rand.nextInt(20)+10;
+    int num6 = rand.nextInt(70)+30;
     int num7 = rand.nextInt(300)+100;
-    int num8 = rand.nextInt(900)+100;
+    int num8 = rand.nextInt(500)+400;
     //determines the correct answers
     int ans1 = num2-num1;
     int ans2 = num4-num3;
@@ -99,6 +99,8 @@ public class subtractionpage extends javax.swing.JFrame {
 
         subbonusq.setForeground(new java.awt.Color(255, 255, 255));
         subbonusq.setText("***Bonus***");
+
+        subfeedback.setForeground(new java.awt.Color(255, 255, 255));
 
         subenter.setText("Enter");
         subenter.addActionListener(new java.awt.event.ActionListener() {

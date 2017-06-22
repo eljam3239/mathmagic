@@ -25,7 +25,7 @@ public class multiplypage extends javax.swing.JFrame {
     
     int digit1n1 = rand.nextInt(10);//determines a random digit for the 1s unit in a double-digit number
     int digit2n2 = 10-digit1n1;//determines the other 1s digit's complimentary (number that adds to 10)
-    int tens = rand.nextInt(10)*10; //determines what shared 10s unit will be aded to the single digits
+    int tens = rand.nextInt((10)+1)*10; //determines what shared 10s unit will be aded to the single digits
     int num3 = tens+digit1n1;//for trick 3 which two numbers begin with the same number and whose second digits add to 10
     int num4 = tens+digit2n2;//for trick 3
     
